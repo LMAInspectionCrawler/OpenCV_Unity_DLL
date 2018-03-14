@@ -1,0 +1,14 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  LMA_OPENCV_PLUGIN.cpp
+LMA_OPENCV_PLUGIN.cpp(22): warning C4273: 'BackgroundSubtraction::Functions::Initialize': inconsistent dll linkage
+  c:\users\gordilor\source\repos\lma_opencv_plugin\lma_opencv_plugin\BackgroundSubtraction.h(21): note: see previous definition of 'Initialize'
+LMA_OPENCV_PLUGIN.cpp(26): warning C4273: 'BackgroundSubtraction::Functions::ProcessFrame': inconsistent dll linkage
+  c:\users\gordilor\source\repos\lma_opencv_plugin\lma_opencv_plugin\BackgroundSubtraction.h(24): note: see previous definition of 'ProcessFrame'
+     Creating library C:\Users\gordilor\source\repos\LMA_OPENCV_PLUGIN\Release\LMA_OPENCV_PLUGIN.lib and object C:\Users\gordilor\source\repos\LMA_OPENCV_PLUGIN\Release\LMA_OPENCV_PLUGIN.exp
+LMA_OPENCV_PLUGIN.obj : error LNK2001: unresolved external symbol "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z)
+LMA_OPENCV_PLUGIN.obj : error LNK2001: unresolved external symbol "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ)
+LMA_OPENCV_PLUGIN.obj : error LNK2001: unresolved external symbol "public: __thiscall cv::VideoCapture::VideoCapture(int)" (??0VideoCapture@cv@@QAE@H@Z)
+LMA_OPENCV_PLUGIN.obj : error LNK2001: unresolved external symbol "void __cdecl cv::flip(class cv::_InputArray const &,class cv::_OutputArray const &,int)" (?flip@cv@@YAXABV_InputArray@1@ABV_OutputArray@1@H@Z)
+LMA_OPENCV_PLUGIN.obj : error LNK2001: unresolved external symbol "void __cdecl cv::cvtColor(class cv::_InputArray const &,class cv::_OutputArray const &,int,int)" (?cvtColor@cv@@YAXABV_InputArray@1@ABV_OutputArray@1@HH@Z)
+C:\Users\gordilor\source\repos\LMA_OPENCV_PLUGIN\Release\LMA_OPENCV_PLUGIN.dll : fatal error LNK1120: 5 unresolved externals
