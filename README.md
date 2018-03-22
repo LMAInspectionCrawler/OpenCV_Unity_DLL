@@ -17,8 +17,8 @@ https://www.stereolabs.com/developers/release/unity/2.3/   (current link, probs 
 https://sourceforge.net/projects/opencvlibrary/?source=typ_redirect
 
 ## then git clone the repos
-https://github.com/LMAInspectionCrawler/Zed_Unity.git
-https://github.com/LMAInspectionCrawler/OpenCV_Unity_DLL.git
+### https://github.com/LMAInspectionCrawler/Zed_Unity.git
+### https://github.com/LMAInspectionCrawler/OpenCV_Unity_DLL.git
 
 ## then
 profit. 
