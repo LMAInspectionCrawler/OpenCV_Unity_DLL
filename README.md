@@ -13,8 +13,8 @@ https://www.stereolabs.com/developers/
 ## then get Unity plugin
 https://www.stereolabs.com/developers/release/unity/2.3/   (current link, probs gonna change in like a day cuz unity updates like a mofo)
 
-## then extract opencv 3.4.1 to "C:\"
-https://sourceforge.net/projects/opencvlibrary/?source=typ_redirect
+## then extract opencv 3.4.0 to "C:\"
+https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.4.0/opencv-3.4.0-vc14_vc15.exe/download
 
 ## then git clone the repos
 ### https://github.com/LMAInspectionCrawler/Zed_Unity.git
