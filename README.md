@@ -5,7 +5,8 @@
 https://developer.nvidia.com/cuda-downloads
 
 ## then get Unity
-https://store.unity.com/ (free, cuz we broke)
+### https://store.unity.com/ (free, cuz we broke)
+### Open Visual Studio 2017 -> tools -> Get Tools and Features, download "Universal Windows Platform development" and "Desktop development with C++"
 
 ## then get ZED sdk
 https://www.stereolabs.com/developers/
