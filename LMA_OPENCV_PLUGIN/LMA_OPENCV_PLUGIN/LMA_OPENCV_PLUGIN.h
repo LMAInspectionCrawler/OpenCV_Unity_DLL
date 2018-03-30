@@ -30,7 +30,7 @@ namespace LMA_OPENCV_PLUGIN
 		static LMA_OPENCV_PLUGIN_EXPORTS_API void FreeMem();
 		
 		// Return a sobel image
-		static LMA_OPENCV_PLUGIN_EXPORTS_API BYTE* SobelFrame(BYTE* zedimage, int zcols, int zrows);
+		static LMA_OPENCV_PLUGIN_EXPORTS_API BYTE* SubtractFrame(BYTE* zedimage, BYTE* refimage, int zcols, int zrows);
 
 
 	};
