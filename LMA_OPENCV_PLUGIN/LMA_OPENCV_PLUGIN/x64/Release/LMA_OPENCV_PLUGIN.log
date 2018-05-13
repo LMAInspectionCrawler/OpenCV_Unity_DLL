@@ -1,12 +1,14 @@
-﻿  LMA_OPENCV_PLUGIN.cpp
-c:\users\administrator\desktop\opencvunity\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(47): warning C4273: 'LMA_OPENCV_PLUGIN::Functions::SubtractFrame': inconsistent dll linkage
-  c:\users\administrator\desktop\opencvunity\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.h(33): note: see previous definition of 'SubtractFrame'
-c:\users\administrator\desktop\opencvunity\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(239): warning C4273: 'LMA_OPENCV_PLUGIN::Functions::FreeMem': inconsistent dll linkage
-  c:\users\administrator\desktop\opencvunity\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.h(30): note: see previous definition of 'FreeMem'
-     Creating library C:\Users\Administrator\Desktop\OpenCVUnity\OpenCV_Unity_DLL\LMA_OPENCV_PLUGIN\x64\Release\LMA_OPENCV_PLUGIN.lib and object C:\Users\Administrator\Desktop\OpenCVUnity\OpenCV_Unity_DLL\LMA_OPENCV_PLUGIN\x64\Release\LMA_OPENCV_PLUGIN.exp
+﻿  stdafx.cpp
+  dllmain.cpp
+  LMA_OPENCV_PLUGIN.cpp
+c:\users\administrator\downloads\opencv_unity_dll_original_version\opencv_unity_dll-fb568f4d152e2bb6846756813296cb89a54aacd1\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(38): warning C4273: 'LMA_OPENCV_PLUGIN::Functions::SobelFrame': inconsistent dll linkage
+  c:\users\administrator\downloads\opencv_unity_dll_original_version\opencv_unity_dll-fb568f4d152e2bb6846756813296cb89a54aacd1\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.h(33): note: see previous definition of 'SobelFrame'
+c:\users\administrator\downloads\opencv_unity_dll_original_version\opencv_unity_dll-fb568f4d152e2bb6846756813296cb89a54aacd1\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(76): warning C4273: 'LMA_OPENCV_PLUGIN::Functions::FreeMem': inconsistent dll linkage
+  c:\users\administrator\downloads\opencv_unity_dll_original_version\opencv_unity_dll-fb568f4d152e2bb6846756813296cb89a54aacd1\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.h(30): note: see previous definition of 'FreeMem'
+     Creating library C:\Users\Administrator\Downloads\OpenCV_Unity_DLL_original_version\OpenCV_Unity_DLL-fb568f4d152e2bb6846756813296cb89a54aacd1\LMA_OPENCV_PLUGIN\x64\Release\LMA_OPENCV_PLUGIN.lib and object C:\Users\Administrator\Downloads\OpenCV_Unity_DLL_original_version\OpenCV_Unity_DLL-fb568f4d152e2bb6846756813296cb89a54aacd1\LMA_OPENCV_PLUGIN\x64\Release\LMA_OPENCV_PLUGIN.exp
   Generating code
-  1 of 70 functions ( 1.4%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
+  42 of 42 functions (100.0%) were compiled, the rest were copied from previous compilation.
+    14 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  LMA_OPENCV_PLUGIN.vcxproj -> C:\Users\Administrator\Desktop\OpenCVUnity\OpenCV_Unity_DLL\LMA_OPENCV_PLUGIN\x64\Release\LMA_OPENCV_PLUGIN.dll
+  LMA_OPENCV_PLUGIN.vcxproj -> C:\Users\Administrator\Downloads\OpenCV_Unity_DLL_original_version\OpenCV_Unity_DLL-fb568f4d152e2bb6846756813296cb89a54aacd1\LMA_OPENCV_PLUGIN\x64\Release\LMA_OPENCV_PLUGIN.dll
