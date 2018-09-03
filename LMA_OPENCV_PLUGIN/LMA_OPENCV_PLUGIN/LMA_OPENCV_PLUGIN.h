@@ -13,7 +13,7 @@
 #ifdef LMA_OPENCV_PLUGIN_EXPORTS  
 #define LMA_OPENCV_PLUGIN_EXPORTS_API __declspec(dllexport)   
 #else  
-#define LMA_OPENCV_PLUGIN_EXPORTS_API __declspec(dllimport)   
+#define LMA_OPENCV_PLUGIN_EXPORTS_API __declspec(dllimport)
 #endif  
 
 
@@ -26,12 +26,28 @@ namespace LMA_OPENCV_PLUGIN
 		*/
 	public:
 
-		// Free the memory used for the image
-		static LMA_OPENCV_PLUGIN_EXPORTS_API void FreeMem();
-		
-		// Return a sobel image
-		static LMA_OPENCV_PLUGIN_EXPORTS_API BYTE* SobelFrame(BYTE* zedimage, int zcols, int zrows);
+		typedef struct _FODPOINT
+		{
+			char* x;
+			char* y;
+		} FODPOINT, *LP_MYPERSON;
 
+		typedef struct _FODPOINTS
+		{
+			int id;
+			FODPOINT* points[3];
+		} FODPOINTS, *LP_FODPOINTS; 
+
+
+		// Return a sobel image
+		static LMA_OPENCV_PLUGIN_EXPORTS_API void CannyFilter(BYTE* modelimage, BYTE* liveimage, int zcols, int zrows, int thresh, bool debug);
+
+		// Return a sobel filtered image
+		static LMA_OPENCV_PLUGIN_EXPORTS_API void NoFilter(BYTE* zedimage, int zcols, int zrows, int thresh, bool debug);
+
+		static LMA_OPENCV_PLUGIN_EXPORTS_API void SIFT(BYTE* modelimage, BYTE* liveimage, int zcols, int zrows, int thresh, bool debug);
+
+		static LMA_OPENCV_PLUGIN_EXPORTS_API int FodPoint(FODPOINTS* pFodpoints);
 
 	};
 }
