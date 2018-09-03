@@ -1,4 +1,4 @@
-# Ya need Nvidia mang!
+# old
 ## ALSO, the zed sdk and unity stuff included in the drive is no bueno cuz it's old. 
 
 ## first get CUDA
