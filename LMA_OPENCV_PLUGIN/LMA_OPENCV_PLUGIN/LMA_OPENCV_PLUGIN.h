@@ -40,12 +40,22 @@ namespace LMA_OPENCV_PLUGIN
 
 
 		// Return a sobel image
-		static LMA_OPENCV_PLUGIN_EXPORTS_API void CannyFilter(BYTE* modelimage, BYTE* liveimage, int zcols, int zrows, int thresh, bool debug);
+		static LMA_OPENCV_PLUGIN_EXPORTS_API void CannyFilter(BYTE* modelimage, BYTE* liveimage, int zcols, int zrows, bool debug);
 
 		// Return a sobel filtered image
-		static LMA_OPENCV_PLUGIN_EXPORTS_API void NoFilter(BYTE* zedimage, int zcols, int zrows, int thresh, bool debug);
+		static LMA_OPENCV_PLUGIN_EXPORTS_API void NoFilter(BYTE* zedimage, int zcols, int zrows, bool debug);
 
-		static LMA_OPENCV_PLUGIN_EXPORTS_API void SIFT(BYTE* modelimage, BYTE* liveimage, int zcols, int zrows, int thresh, bool debug);
+		static LMA_OPENCV_PLUGIN_EXPORTS_API void SIFT(BYTE* modelimage, BYTE* liveimage, int zcols, int zrows, bool debug);
+
+		static LMA_OPENCV_PLUGIN_EXPORTS_API void SetCannyThresh(int val);
+
+		static LMA_OPENCV_PLUGIN_EXPORTS_API void SetFilterThresh(int val);
+
+		static LMA_OPENCV_PLUGIN_EXPORTS_API void SetSubtractionBlur(int val);
+
+		static LMA_OPENCV_PLUGIN_EXPORTS_API void SetWindowX(float val);
+
+		static LMA_OPENCV_PLUGIN_EXPORTS_API void SetWindowY(float val);
 
 		static LMA_OPENCV_PLUGIN_EXPORTS_API int FodPoint(FODPOINTS* pFodpoints);
 
