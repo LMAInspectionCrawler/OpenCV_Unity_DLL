@@ -42,10 +42,12 @@ namespace LMA_OPENCV_PLUGIN
 		// Return a sobel image
 		static LMA_OPENCV_PLUGIN_EXPORTS_API void CannyFilter(BYTE* modelimage, BYTE* liveimage, int zcols, int zrows, bool debug);
 
-		// Return a sobel filtered image
-		static LMA_OPENCV_PLUGIN_EXPORTS_API void NoFilter(BYTE* zedimage, int zcols, int zrows, bool debug);
 
-		static LMA_OPENCV_PLUGIN_EXPORTS_API void SIFT(BYTE* modelimage, BYTE* liveimage, int zcols, int zrows, bool debug);
+		static LMA_OPENCV_PLUGIN_EXPORTS_API void NoFilter(BYTE* zedimage, int zcols, int zrows, bool debug);
+		
+		static LMA_OPENCV_PLUGIN_EXPORTS_API void CalibrationFilter(BYTE* zedimage, int zcols, int zrows, bool debug);
+
+		static LMA_OPENCV_PLUGIN_EXPORTS_API void SIFT(BYTE* modelimage, BYTE* liveimage, int zcols, int zrows, bool debug, BYTE* snapshotpath, int panvalue, int tiltvalue, bool takesnapshot);
 
 		static LMA_OPENCV_PLUGIN_EXPORTS_API void SetCannyThresh(int val);
 

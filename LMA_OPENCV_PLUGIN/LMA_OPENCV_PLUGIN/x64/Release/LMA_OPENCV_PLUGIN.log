@@ -1,43 +1,47 @@
 ﻿  LMA_OPENCV_PLUGIN.cpp
-c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(99): warning C4273: 'LMA_OPENCV_PLUGIN::Functions::FodPoint': inconsistent dll linkage
-  c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.h(60): note: see previous definition of 'FodPoint'
-c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(137): warning C4273: 'LMA_OPENCV_PLUGIN::Functions::NoFilter': inconsistent dll linkage
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(112): warning C4273: 'LMA_OPENCV_PLUGIN::Functions::FodPoint': inconsistent dll linkage
+  c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.h(62): note: see previous definition of 'FodPoint'
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(146): warning C4273: 'LMA_OPENCV_PLUGIN::Functions::SetCannyThresh': inconsistent dll linkage
+  c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.h(52): note: see previous definition of 'SetCannyThresh'
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(150): warning C4273: 'LMA_OPENCV_PLUGIN::Functions::SetFilterThresh': inconsistent dll linkage
+  c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.h(54): note: see previous definition of 'SetFilterThresh'
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(154): warning C4273: 'LMA_OPENCV_PLUGIN::Functions::SetSubtractionBlur': inconsistent dll linkage
+  c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.h(56): note: see previous definition of 'SetSubtractionBlur'
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(158): warning C4273: 'LMA_OPENCV_PLUGIN::Functions::SetWindowX': inconsistent dll linkage
+  c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.h(58): note: see previous definition of 'SetWindowX'
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(162): warning C4273: 'LMA_OPENCV_PLUGIN::Functions::SetWindowY': inconsistent dll linkage
+  c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.h(60): note: see previous definition of 'SetWindowY'
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(185): warning C4273: 'LMA_OPENCV_PLUGIN::Functions::NoFilter': inconsistent dll linkage
   c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.h(46): note: see previous definition of 'NoFilter'
-c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(144): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(150): warning C4273: 'LMA_OPENCV_PLUGIN::Functions::SetCannyThresh': inconsistent dll linkage
-  c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.h(50): note: see previous definition of 'SetCannyThresh'
-c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(154): warning C4273: 'LMA_OPENCV_PLUGIN::Functions::SetFilterThresh': inconsistent dll linkage
-  c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.h(52): note: see previous definition of 'SetFilterThresh'
-c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(158): warning C4273: 'LMA_OPENCV_PLUGIN::Functions::SetSubtractionBlur': inconsistent dll linkage
-  c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.h(54): note: see previous definition of 'SetSubtractionBlur'
-c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(162): warning C4273: 'LMA_OPENCV_PLUGIN::Functions::SetWindowX': inconsistent dll linkage
-  c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.h(56): note: see previous definition of 'SetWindowX'
-c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(166): warning C4273: 'LMA_OPENCV_PLUGIN::Functions::SetWindowY': inconsistent dll linkage
-  c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.h(58): note: see previous definition of 'SetWindowY'
-c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(193): warning C4273: 'LMA_OPENCV_PLUGIN::Functions::CannyFilter': inconsistent dll linkage
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(192): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(220): warning C4273: 'LMA_OPENCV_PLUGIN::Functions::CalibrationFilter': inconsistent dll linkage
+  c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.h(48): note: see previous definition of 'CalibrationFilter'
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(228): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(275): warning C4273: 'LMA_OPENCV_PLUGIN::Functions::CannyFilter': inconsistent dll linkage
   c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.h(43): note: see previous definition of 'CannyFilter'
-c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(202): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(203): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(272): warning C4273: 'LMA_OPENCV_PLUGIN::Functions::SIFT': inconsistent dll linkage
-  c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.h(48): note: see previous definition of 'SIFT'
 c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(284): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(285): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(390): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(391): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(395): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(396): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(403): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(405): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(406): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(408): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(472): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(473): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(487): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(488): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(358): warning C4273: 'LMA_OPENCV_PLUGIN::Functions::SIFT': inconsistent dll linkage
+  c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.h(50): note: see previous definition of 'SIFT'
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(370): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(371): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(478): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(479): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(483): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(484): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(491): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(493): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(494): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(496): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(538): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(583): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(584): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(598): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\utepi\desktop\3d subtraction\opencv_unity_dll\lma_opencv_plugin\lma_opencv_plugin\lma_opencv_plugin.cpp(599): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
      Creating library C:\Users\UTEPI\Desktop\3D subtraction\OpenCV_Unity_DLL\LMA_OPENCV_PLUGIN\x64\Release\LMA_OPENCV_PLUGIN.lib and object C:\Users\UTEPI\Desktop\3D subtraction\OpenCV_Unity_DLL\LMA_OPENCV_PLUGIN\x64\Release\LMA_OPENCV_PLUGIN.exp
   Generating code
-  8 of 522 functions ( 1.5%) were compiled, the rest were copied from previous compilation.
-    8 functions were new in current compilation
-    12 functions had inline decision re-evaluated but remain unchanged
+  1 of 586 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   LMA_OPENCV_PLUGIN.vcxproj -> C:\Users\UTEPI\Desktop\3D subtraction\OpenCV_Unity_DLL\LMA_OPENCV_PLUGIN\x64\Release\LMA_OPENCV_PLUGIN.dll
